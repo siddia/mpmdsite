@@ -418,22 +418,22 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #fff;
   margin-bottom: 20px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 38px;
+  font-weight: 500;
 }
 
 #hero h4 {
   color: #fff;
   /* margin-bottom: 20px; */
   font-size: 25px;
-  padding-top: 50px;
-  font-weight: 700;
+  padding-top: 20px;
+  font-weight: 500;
 }
 
 #hero h1 {
   background: rgba(217, 35, 45, 0.5);
   color: #fff;
-  font-size: 46px;
+  font-size: 40px;
   padding: 10px 30px;
   margin-bottom: 30px;
   border-bottom-left-radius: 150px;
