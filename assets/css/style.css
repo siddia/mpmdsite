@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   background: rgba(217, 35, 45, 0.5);
   color: #fff;
-  font-size: 40px;
+  font-size: 3vw;
   padding: 10px 20px;
   margin-bottom: 30px;
   border-bottom-left-radius: 150px;
