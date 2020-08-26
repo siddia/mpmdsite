@@ -1254,6 +1254,97 @@ section {
 .faq .faq-item p {
   font-size: 15px;
 }
+/* accordian */
+/* #accordion .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-bottom: 1px solid #e3e6ec;
+}
+
+#accordion .active, .accordion:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+#accordion .accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#accordion .active:after {
+  content: "\2212";
+}
+
+#accordion .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+} */
+
+/* accordian white */
+
+.accordion-faq {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+  overflow: hidden;
+}
+.accordion-faq .card {
+  box-shadow: none;
+}
+.accordion-faq .card .card-header {
+  /* cursor: pointer; */
+  background-color: #fff;
+  border-bottom: 1px solid #e3e6ec;
+}
+.accordion-faq .accordion-faq-title {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.accordion-faq .accordion-faq-item .card-header {
+  text-decoration: none;
+}
+.accordion-faq .accordion-faq-item .card-header .accordion-faq-item-heading {
+  width: 100%;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  color: #485260;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.accordion-faq .accordion-faq-item .card-header .accordion-faq-item-heading .accordion-faq-item-heading-arrow {
+  color: #c5ccd6;
+  -webkit-transition: -webkit-transform 0.1s ease-in-out;
+  transition: -webkit-transform 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+}
+.accordion-faq .accordion-faq-item .card-header.collapsed .accordion-faq-item-heading .accordion-faq-item-heading-arrow {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials

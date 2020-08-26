@@ -49,14 +49,14 @@
       <nav class="nav-menu d-none d-lg-block ">
 
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li ><a href="index.html">Home</a></li>
           <li class="drop-down"><a href="#">Get Involved</a>
             <ul>
               <li><a href="InvolveM.html">MP/MPP</a></li>
               <li><a href="InvolveS.html">Student</a></li>
             </ul>
           <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-          <li><a href="faq.html">FAQ</a></li>
+          <li class="active"><a href="faq.html">FAQ</a></li>
           <!-- <li><a href="blog.html">Blog</a></li> -->
           <!-- <li><a href="contact.html">Contact</a></li> -->
           <li class="drop-down"><a href="#">About</a>
@@ -194,109 +194,92 @@
               <br> <br>Our team will get back to you soon.
             </p>
           </div>
+       
+          <section id="accordion" class="accordian faq-item col-md-8">
+          <!-- adds space -->
+          </section> 
 
-        <!--  -->
+        </div>
+      
+       <!--  -->
+       <div class="row">
+       <div class="col-md-8">
+      <div class="accordion accordion-faq mb-5" id="helpAccordion">
 
-        <div class="row faq-item d-flex align-items-stretch">
-          <div class="col-lg-7">
-            <i class="bx bx-help-circle"></i>
-            <h4>Will this be in-person? </h4>
-          </div>
-          <div class="col-lg-10">
-            <p>
-              No, due to COVID-19 precautions and how many medical students are currently in the wards, we're more than happy to keep any collaborations 100% virtual!</p>
-          </div>
-        </div><!-- End F.A.Q Item-->
+        <div class="card accordion-faq-item">
+          <a class="card-header collapsed" id="helpHeadingOne" data-toggle="collapse" data-target="#helpCollapseOne" aria-expanded="false" aria-controls="helpCollapseOne" href="javascript:void(0);">
+          <div class="accordion-faq-item-heading ">Will this be in-person?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down accordion-faq-item-heading-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg></div></a>
+          <div class="collapse" id="helpCollapseOne" aria-labelledby="helpHeadingOne" data-parent="#helpAccordion" style="">
+          <div class="card-body border-bottom">We plan to start once the school year starts in September, but the timing as well as duration of the program and frequency of 
+            MP-student meetings per month are all up to the preferences of the MP office. We realize that constituency offices may be busy 
+            and are more than happy to be very flexible and adaptable with the preferences of MP/MPP offices.</div></div>
+      </div>
 
-        <div class="row faq-item d-flex align-items-stretch">
-          <div class="col-lg-7">
-            <i class="bx bx-help-circle"></i>
-            <h4>When will this start?</h4>
-          </div>
-          <div class="col-lg-10">
-            <p>
-              We plan to start once the school year starts in September, but the timing as well as duration of the program and frequency of 
+        <div class="card accordion-faq-item">
+            <a class="card-header collapsed" id="helpHeadingTwo" data-toggle="collapse" data-target="#helpCollapseTwo" aria-expanded="true" aria-controls="helpCollapseTwo" href="javascript:void(0);">
+            <div class="accordion-faq-item-heading">When will this start?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down accordion-faq-item-heading-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg></div></a>
+            <div class="collapse" id="helpCollapseTwo" aria-labelledby="helpHeadingTwo" data-parent="#helpAccordion">
+            <div class="card-body border-bottom">We plan to start once the school year starts in September, but the timing as well as duration of the program and frequency of 
               MP-student meetings per month are all up to the preferences of the MP office. We realize that constituency offices may be busy 
-              and are more than happy to be very flexible and adaptable with the preferences of MP/MPP offices.
-            </p>
-          </div>
-        </div><!-- End F.A.Q Item-->
+              and are more than happy to be very flexible and adaptable with the preferences of MP/MPP offices.</div></div>
+        </div>
 
-        <div class="row faq-item d-flex align-items-stretch">
-          <div class="col-lg-7">
-            <i class="bx bx-help-circle"></i>
-            <h4>How long will the apprenticeship run?</h4>
-          </div>
-          <div class="col-lg-10">
-            <p>
-              The minimum duration of an MD student's commitment to your office is 3 months, with the time commitments within that period 
+        <div class="card accordion-faq-item">
+            <a class="card-header collapsed" id="helpHeadingThree" data-toggle="collapse" data-target="#helpCollapseThree" aria-expanded="true" aria-controls="helpCollapseThree" href="javascript:void(0);">
+            <div class="accordion-faq-item-heading">How long will the apprenticeship run?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down accordion-faq-item-heading-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg></div></a>
+            <div class="collapse" id="helpCollapseThree" aria-labelledby="helpHeadingThree" data-parent="#helpAccordion">
+            <div class="card-body border-bottom">The minimum duration of an MD student's commitment to your office is 3 months, with the time commitments within that period 
               of time flexible and determined by your MP/MPP and constituency office's needs. For instance, some offices may want biweekly meetings, 
               while others are happy with weekly or monthly meetings, or close collaboration with policy/research staffers. Your office is free to 
               continue the MD-MPP connection for longer than 3 months if you so choose - the time range can be anywhere from 3 months to 1 school year 
               (ending in May). As medical students, we are very flexible and willing to accommodate the preferences of the MPP office, and are happy 
-              to follow the projects/policies assigned to us to its completion should you deem fit.
-            </p>
-          </div>
-        </div><!-- End F.A.Q Item-->
+              to follow the projects/policies assigned to us to its completion should you deem fit.</div></div>
+        </div>
 
-        <div class="row faq-item d-flex align-items-stretch">
-          <div class="col-lg-7">
-            <i class="bx bx-help-circle"></i>
-            <h4>Will this require students to be paid?</h4>
-          </div>
-          <div class="col-lg-10">
-            <p>
-              No, we started this program to help students gain exposure, education and experience working with health policy - just as in the spirit 
-              of clerkship (a stage in the medical student education journey), where a student shadows a physician to learn, we hope that the experience 
-              of essentially shadowing and aiding an policymaker will give the same priceless educational value. In this sense, we are not intended to be 
-              summer students nor part-time staffers - we aim primarily to assist with and learn more about healthcare and other policy as per our background
-               in healthcare and research, although we're happy to get involved with logistical matters such as community outreach as well!
-            </p>
-          </div>
-        </div><!-- End F.A.Q Item-->
+        <div class="card accordion-faq-item">
+          <a class="card-header collapsed" id="helpHeadingfour" data-toggle="collapse" data-target="#helpCollapsefour" aria-expanded="false" aria-controls="helpCollapsefour" href="javascript:void(0);">
+          <div class="accordion-faq-item-heading">Will this require students to be paid?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down accordion-faq-item-heading-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg></div></a>
+          <div class="collapse" id="helpCollapsefour" aria-labelledby="helpHeadingfour" data-parent="#helpAccordion" style="">
+          <div class="card-body border-bottom"> No, we started this program to help students gain exposure, education and experience working with health policy - just as in the spirit 
+            of clerkship (a stage in the medical student education journey), where a student shadows a physician to learn, we hope that the experience 
+            of essentially shadowing and aiding an policymaker will give the same priceless educational value. In this sense, we are not intended to be 
+            summer students nor part-time staffers - we aim primarily to assist with and learn more about healthcare and other policy as per our background
+            in healthcare and research, although we're happy to get involved with logistical matters such as community outreach as well!</div></div>
+        </div>
 
-        <div class="row faq-item d-flex align-items-stretch">
-          <div class="col-lg-7">
-            <i class="bx bx-help-circle"></i>
-            <h4>What kind of projects will students be assisting with?</h4>
-          </div>
-          <div class="col-lg-10">
-            <p>
-              Depending on your preference and need, students can be used to engage in policy research, writing briefings/position statements, stakeholder 
-              communications and community outreach. The specific details of our role will be flexible according to the needs of each MP/MPP and constituency office.
-            </p>
-          </div>
-        </div><!-- End F.A.Q Item-->
+        <div class="card accordion-faq-item">
+            <a class="card-header collapsed" id="helpHeadingfive" data-toggle="collapse" data-target="#helpCollapsefive" aria-expanded="true" aria-controls="helpCollapsefive" href="javascript:void(0);">
+            <div class="accordion-faq-item-heading">What kind of projects will students be assisting with?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down accordion-faq-item-heading-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg></div></a>
+            <div class="collapse" id="helpCollapsefive" aria-labelledby="helpHeadingfive" data-parent="#helpAccordion">
+            <div class="card-body border-bottom">Depending on your preference and need, students can be used to engage in policy research, writing briefings/position statements, stakeholder 
+              communications and community outreach. The specific details of our role will be flexible according to the needs of each MP/MPP and constituency office.</div></div>
+        </div>
 
-        <div class="row faq-item d-flex align-items-stretch">
-          <div class="col-lg-7">
-            <i class="bx bx-help-circle"></i>
-            <h4>Why are we not only reaching out to the Health Ministers? </h4>
-          </div>
-          <div class="col-lg-10">
-            <p>
-              We believe that many, if not all aspects of governance and politics relate back to population health, healthcare and health policy in some way - for instance, 
+        <div class="card accordion-faq-item">
+            <a class="card-header collapsed" id="helpHeadingsix" data-toggle="collapse" data-target="#helpCollapsesix" aria-expanded="true" aria-controls="helpCollapsesix" href="javascript:void(0);">
+            <div class="accordion-faq-item-heading">Why are we not only reaching out to the Health Ministers?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down accordion-faq-item-heading-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg></div></a>
+            <div class="collapse" id="helpCollapsesix" aria-labelledby="helpHeadingsix" data-parent="#helpAccordion">
+            <div class="card-body border-bottom">We believe that many, if not all aspects of governance and politics relate back to population health, healthcare and health policy in some way - for instance, 
               environmental policy plays a huge role in diseases like asthma, transportation is increasingly relevant nowadays as we struggle to contain COVID-19 transmission, 
               and economics has a vital role in socioeconomic determinants of health. As a result, our medical students will have plenty to learn from MP/MPPs with any portfolio,
-               and are open to aiding with policy research/writing for health-related and non-health related subjects. 
-            </p>
-          </div>
-        </div><!-- End F.A.Q Item-->
+              and are open to aiding with policy research/writing for health-related and non-health related subjects.</div></div>
+        </div>
 
-        <div class="row faq-item d-flex align-items-stretch">
-          <div class="col-lg-7">
-            <i class="bx bx-help-circle"></i>
-            <h4>Who are we affiliated with?</h4>
-          </div>
-          <div class="col-lg-10">
-            <p>
-              We are non-partisan and are currently supported through the volunteer efforts of our executive team made up of medical students across Ontario. We are the 
-              recipient of a student initiative grant from the Canadian Federation of Medical Students, but otherwise have no financial disclosures to disclose. 
-            </p>
-          </div>
-        </div><!-- End F.A.Q Item-->
-
+        <div class="card accordion-faq-item">
+          <a class="card-header collapsed" id="helpHeadingseven" data-toggle="collapse" data-target="#helpCollapseseven" aria-expanded="false" aria-controls="helpCollapseseven" href="javascript:void(0);">
+          <div class="accordion-faq-item-heading">Who are we affiliated with?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down accordion-faq-item-heading-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg></div></a>
+          <div class="collapse" id="helpCollapseseven" aria-labelledby="helpHeadingseven" data-parent="#helpAccordion" style="">
+          <div class="card-body border-bottom ">We are non-partisan and are currently supported through the volunteer efforts of our executive team made up of medical students across Ontario. We are the 
+            recipient of a student initiative grant from the Canadian Federation of Medical Students, but otherwise have no financial disclosures to disclose.</div></div>
       </div>
+
+
+    </div>
+    </div>
+  </div>
+<!--  -->
+     
+  </div>
     </section><!-- End Frequently Asked Questions Section -->
 
   </main><!-- End #main -->
@@ -406,6 +389,24 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- accordian js -->
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
 
 </body>
 
